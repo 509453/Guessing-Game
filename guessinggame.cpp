@@ -31,12 +31,13 @@ int main()
 
 	 //storing random number in variable 
         int random = 1 + (rand() % 100);
+	std:: cout<< "Start Guessing!";
        
         int count = 0;
 	//continues game until answer is guessed
         while (guess != random){
              
-      
+	  
 	  //asks input from user
         std:: cin>> guess; 
         count = count +1; // keeps track of tries
